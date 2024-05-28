@@ -1,0 +1,52 @@
+body {
+    background-color: #d4dde1;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titulo-principal {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-principal h1 {
+    color: white;
+}
+
+.input-cep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+}
+
+#retorno {
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 500px;
+    background-color: lightyellow;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+#dadosSalvos {
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 500px;
+    background-color: lightyellow;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
